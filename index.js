@@ -8,7 +8,7 @@ let burger_btn = document.getElementById("burger");
 let avatar = document.getElementById("avatar");
 
 avatar.addEventListener("click", () => {
-    window.location.href = "login.html"
+    window.location.href = "index.html"
 })
 
 
