@@ -16,7 +16,7 @@ let password = "028";
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     if(inputText.value === adminname && inputPassword.value === password) {
-        window.location.href = "index.html";
+        window.location.href = "home.html";
     } else if (!inputText.value || !inputPassword.value) {
         modalOpen.addEventListener("click", () => {
             modal.style.display = "flex";
