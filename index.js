@@ -5,6 +5,11 @@ let mode_icon2 = document.getElementById("mode_icon2");
 let btn = document.getElementById("btn");
 let burger_menu = document.getElementById("burger_menu");
 let burger_btn = document.getElementById("burger");
+let avatar = document.getElementById("avatar");
+
+avatar.addEventListener("click", () => {
+    window.location.href = "login.html"
+})
 
 
 let theme = localStorage.getItem("theme");
@@ -47,3 +52,5 @@ mode2.addEventListener("click", () => {
 burger_btn.addEventListener("click", () => {
     burger_menu.classList.toggle("-translate-x-[600px]")
 })
+
+
